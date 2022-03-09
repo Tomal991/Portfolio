@@ -47,5 +47,4 @@ export const projectData = [
     github: "http://github.com/Tomal991",
     live: "http://github.com",
   },
-  
 ];

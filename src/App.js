@@ -5,7 +5,7 @@ import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Projects from "./components/projects/Projects";
 import Services from "./components/services/Services";
-import Testimonials from "./components/testimonials/Testimonials";
+import Testimonial from "./components/testimonial/Testimonial";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
@@ -21,9 +21,8 @@ function App() {
       <Services />
 
       <Projects />
+      <Testimonial />
       <Contact />
-
-      <Testimonials />
     </div>
   );
 }

@@ -15,7 +15,12 @@ const Projects = () => {
               </div>
               <h3>{title}</h3>
               <div className="projects_item_button">
-                <a href={github} className="btn" target="_blank" rel="noreferrer">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
                 <a
@@ -24,7 +29,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                 Live Demo
+                  Live Demo
                 </a>
               </div>
             </article>
