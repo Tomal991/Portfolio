@@ -16,8 +16,8 @@ const Testimonial = () => {
     <section id="testimonials">
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
-      <div className="testimonials_container">
         <Swiper
+          className="testimonials_container"
           modules={[Navigation, Pagination]}
           spaceBetween={50}
           slidesPerView={1}
@@ -26,7 +26,7 @@ const Testimonial = () => {
         >
           {testimonialData.map(({ id, avatar, name, review }) => {
             return (
-              <SwiperSlide key={id} className="testimonials">
+              <SwiperSlide key={id} className="testimonial">
                 <div className="avatar">
                   <img src={avatar} alt={name} />
                 </div>
@@ -36,7 +36,7 @@ const Testimonial = () => {
             );
           })}
         </Swiper>
-      </div>
+     
     </section>
   );
 };
