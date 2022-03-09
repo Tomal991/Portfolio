@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineHome } from "react-icons/ai";
 import "./nav.css";
 import { useState } from "react";
 const Nav = () => {

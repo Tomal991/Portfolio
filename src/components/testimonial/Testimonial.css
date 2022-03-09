@@ -1,6 +1,9 @@
 .testimonials_container {
   width: 40%;
-  padding-bottom: 4rem;
+  position: absolute;
+  z-index: -1;
+  left: 30%;
+  
 }
 
 .avatar {

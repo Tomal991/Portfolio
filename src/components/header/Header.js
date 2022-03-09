@@ -30,15 +30,24 @@ const Header = () => {
           </div>
         </div>
         <div className="social">
-          <a href="https://www.facebook.com/intesarul.haque.1/" target="_blank">
+          <a
+            href="https://www.facebook.com/intesarul.haque.1/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsFacebook className="social_icon" />
           </a>
-          <a href="https://github.com/Tomal991" target="_blank">
+          <a
+            href="https://github.com/Tomal991"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsGithub className="social_icon" />
           </a>
           <a
             href="https://www.linkedin.com/in/intesarul-haque-tomal-688a33198/"
             target="_blank"
+            rel="noreferrer"
           >
             <BsLinkedin className="social_icon" />
           </a>
