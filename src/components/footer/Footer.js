@@ -2,13 +2,12 @@ import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { BsSkype } from "react-icons/bs";
 import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer id="footer">
-      <a className="logo">Intesarul</a>
+      <a href="#logo" className="logo">Intesarul</a>
       <ul className="permalinks">
         <li>
           <a href="#home">Home</a>
