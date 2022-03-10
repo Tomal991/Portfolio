@@ -6,15 +6,15 @@
 
 .projects_item {
   background: var(--color-bg-variant);
-  padding: 1rem;
+  padding: 1.1rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
 }
-.projects_item:hover {
+/* .projects_item:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
-}
+} */
 
 .projects_item_image {
   border-radius: 1.5rem;
