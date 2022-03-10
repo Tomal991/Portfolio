@@ -25,9 +25,7 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <div className="section2">
-            <img src={mypic} alt="" className="img" />
-          </div>
+         
         </div>
         <div className="social">
           <a
