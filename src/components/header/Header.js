@@ -8,7 +8,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
         <div className="top">
           <div className="section1">

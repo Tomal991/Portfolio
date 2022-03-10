@@ -10,9 +10,9 @@ const Nav = () => {
 
         <div className="nav_item">
           <a
-            href="#"
-            onClick={() => setActiveNav("#")}
-            className={activeNav === "#" ? "active" : ""}
+            href="#home"
+            onClick={() => setActiveNav("#home")}
+            className={activeNav === "#home" ? "active" : ""}
           >
             Home
           </a>
