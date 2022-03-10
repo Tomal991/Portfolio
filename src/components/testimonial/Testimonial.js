@@ -1,5 +1,5 @@
 import React from "react";
-import "./Testimonial.css";
+import "./testimonial.css";
 import { testimonialData } from "../../data/testimonial_data";
 import { Navigation, Pagination } from "swiper";
 

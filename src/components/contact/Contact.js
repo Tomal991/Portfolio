@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { BsSkype } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
