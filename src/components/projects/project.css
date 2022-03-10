@@ -6,7 +6,7 @@
 
 .projects_item {
   background: var(--color-bg-variant);
-  padding: 1.3rem;
+  padding: 1rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -21,13 +21,12 @@
   overflow: hidden;
 }
 .projects_item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1rem 0;
 }
 
 .projects_item_button {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
