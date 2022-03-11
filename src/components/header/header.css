@@ -9,7 +9,7 @@ header {
 }
 .top {
   display: grid;
-  grid-template-columns: 40% 30%;
+  grid-template-columns: 45% 30%;
   gap: 15%;
 }
 .section1 {

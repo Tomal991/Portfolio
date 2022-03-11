@@ -6,6 +6,7 @@ import { BsGithub } from "react-icons/bs";
 import "./header.css";
 import mypic from "../../assets/mypic.jpg";
 
+import Typed from "react-typed";
 const Header = () => {
   return (
     <header id="home">
@@ -13,8 +14,22 @@ const Header = () => {
         <div className="top">
           <div className="section1">
             <h5>Hello I'm</h5>
+
             <h1>Intesarul Haque</h1>
-            <h5 className="text-light">Full Stack Developer</h5>
+
+            <h3>
+              <Typed
+                strings={[
+                  "Full Stack Developer",
+                  "Angular Developer",
+                  "Spring Boot Developer",
+                  "React Developer",
+                ]}
+                typeSpeed={60}
+                backSpeed={40}
+                loop
+              />
+            </h3>
 
             <div className="contact">
               <a href={CV} className="btn" download>
