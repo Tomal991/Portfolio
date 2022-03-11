@@ -11,9 +11,9 @@ const Projects = () => {
           return (
             <article key={id} className="projects_item">
               <div className="projects_item_image">
-                <img src={image} alt={title} />
+                <img src={image} alt={title} className="image" />
               </div>
-              <h4>{title}</h4>
+              <h3>{title}</h3>
               <div className="projects_item_button">
                 <a
                   href={github}

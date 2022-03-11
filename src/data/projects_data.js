@@ -1,8 +1,13 @@
 import mypic from "../assets/mypic.jpg";
+import gitProfileFinder from "../assets/github profile finder.png";
+import pigGame from "../assets/pig game.png";
+import starbucks from "../assets/Starbucks.png";
+// import Elearn from "../assets/Elearn.png";
+import Elearn2 from "../assets/Elearn2.png";
 export const projectData = [
   {
     id: 1,
-    image: mypic,
+    image: Elearn2,
     title: "E-learn System in React and Node JS",
     github: "https://github.com/rashedabir/E-Learn_System/tree/tomal",
     live: "https://elearn-bd.web.app/",
@@ -25,7 +30,7 @@ export const projectData = [
 
   {
     id: 4,
-    image: mypic,
+    image: pigGame,
     title: "Pig Game with Javascript",
     github: "https://github.com/Tomal991/pig-game-js",
     live: "https://pig-gamewithjavascript.netlify.app/",
@@ -33,7 +38,7 @@ export const projectData = [
 
   {
     id: 5,
-    image: mypic,
+    image: gitProfileFinder,
     title: "Github Profile Finder in JS",
     github: "https://github.com/Tomal991/Github-profile-finder",
     live: "https://tomal991.github.io/Github-profile-finder/",
@@ -49,7 +54,7 @@ export const projectData = [
 
   {
     id: 7,
-    image: mypic,
+    image: starbucks,
     title: "Starbucks Landing Page in Html and Css",
     github: "https://github.com/Tomal991/Starbucks-landing-page",
     live: "https://tomal991.github.io/Starbucks-landing-page/",
@@ -58,7 +63,8 @@ export const projectData = [
     id: 8,
     image: mypic,
     title: "Heart Disease Prediction in Machine Learning",
-    github: "https://github.com/Tomal991/Heart_Disease_Prediction-machine-learning",
+    github:
+      "https://github.com/Tomal991/Heart_Disease_Prediction-machine-learning",
     live: "http://github.com",
   },
   {

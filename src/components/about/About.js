@@ -1,5 +1,5 @@
 import React from "react";
-import mypic from "../../assets/mypic.jpg";
+
 import { FaAward } from "react-icons/fa";
 import { AiOutlineUser } from "react-icons/ai";
 import { FaFolder } from "react-icons/fa";
@@ -9,12 +9,6 @@ const About = () => {
     <section id="about">
       <h2 className="title">About Me</h2>
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me__image">
-            <img src={mypic} alt="mypic" />
-          </div>
-        </div>
-
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">

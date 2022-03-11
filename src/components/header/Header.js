@@ -4,6 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import "./header.css";
+import mypic from "../../assets/mypic.jpg";
 
 const Header = () => {
   return (
@@ -24,7 +25,11 @@ const Header = () => {
               </a>
             </div>
           </div>
-         
+          <div className="about__me">
+            <div className="about__me__image">
+              <img src={mypic} alt="mypic" />
+            </div>
+          </div>
         </div>
         <div className="social">
           <a

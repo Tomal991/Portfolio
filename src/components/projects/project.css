@@ -15,13 +15,18 @@
   border-color: var(--color-primary-variant);
   background: transparent;
 }
+.image {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
 
 .projects_item_image {
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   overflow: hidden;
 }
-.projects_item h4 {
-  margin: 1rem 0;
+.projects_item h3 {
+  margin: 1.2rem 0 1.7rem;
 }
 
 .projects_item_button {

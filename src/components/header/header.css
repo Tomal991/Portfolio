@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 8rem;
+  padding-top: 10rem;
   overflow: hidden;
 }
 .header__container {
@@ -8,12 +8,34 @@ header {
   position: relative;
 }
 .top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 40% 30%;
+  gap: 15%;
 }
 .section1 {
   padding-left: 30px;
+}
+.about__me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+.about__me__image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+.about__me__image:hover {
+  transform: rotate(0deg);
 }
 .contact {
   display: flex;
