@@ -13,7 +13,7 @@ const Projects = () => {
               <div className="projects_item_image">
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
+              <h4>{title}</h4>
               <div className="projects_item_button">
                 <a
                   href={github}

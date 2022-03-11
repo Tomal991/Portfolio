@@ -14,7 +14,7 @@ nav a {
   font-size: 18px;
   margin-right: 25px;
 }
-a:hover {
+nav a:hover {
   border-bottom: 5px solid rgb(100, 124, 190);
   transition: left 250ms ease-in-out, right 250ms ease-in-out;
 }

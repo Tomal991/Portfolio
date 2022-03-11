@@ -28,7 +28,7 @@ export const projectData = [
     image: mypic,
     title: "Pig Game with Javascript",
     github: "https://github.com/Tomal991/pig-game-js",
-    live: "http://github.com",
+    live: "https://pig-gamewithjavascript.netlify.app/",
   },
 
   {
