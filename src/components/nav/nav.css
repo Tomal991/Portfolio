@@ -6,9 +6,13 @@
   background-color: rgb(18, 18, 56);
   justify-content: space-around;
   padding: 20px;
+  min-height: 70px;
 }
 .intro {
   font-size: 20px;
+}
+.nav_item {
+  position: relative;
 }
 nav a {
   font-size: 18px;
@@ -21,4 +25,25 @@ nav a:hover {
 nav a.active {
   color: blueviolet;
   border-bottom: 5px solid rgb(100, 124, 190);
+}
+.hamburger-menu {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    right: 50px;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .nav_item {
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+  }
+  nav a {
+    margin-top: 20px;
+  }
 }
