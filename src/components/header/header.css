@@ -1,6 +1,6 @@
 header {
-  height: 100vh;
-  padding-top: 10rem;
+  min-height: 100vh;
+  padding-top: 8rem;
   overflow: hidden;
 }
 .header__container {
@@ -9,7 +9,7 @@ header {
 }
 .top {
   display: grid;
-  grid-template-columns: 45% 30%;
+  grid-template-columns: 40% 25%;
   gap: 15%;
 }
 .section1 {
@@ -42,6 +42,9 @@ header {
   margin-top: 2.5rem;
   gap: 1.2rem;
 }
+a.btn{
+  margin-bottom: 50px;
+}
 .social {
   display: flex;
   flex-direction: column;
@@ -49,7 +52,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 1;
 }
 .social_icon {
   font-size: 22px;
@@ -68,21 +71,41 @@ header {
 }
 .scroll_down {
   position: absolute;
-  right: -2.5rem;
-  bottom: 3rem;
+  right: 0rem;
+  bottom: -7rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
 }
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
+  .top {
+    grid-template-columns: 1fr;
+    gap:0;
+  }
+  .about__me {
+    max-width: 40%;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+   
+    gap: 1rem;
+    position: absolute;
+    
+    bottom: 0;
+  }
+  .scroll_down {
+    display: none;
   }
 }
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
+  .top {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about__me {
+    max-width: 50%;
   }
   .social,
   .scroll_down {
