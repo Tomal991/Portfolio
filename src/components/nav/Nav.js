@@ -10,9 +10,7 @@ const Nav = () => {
   const setToggleNav = () => {
     setToggleMenu(!toggleMenu);
   };
-  const closeNavbar = () => {
-    this.toggleMenu();
-  };
+ 
   useEffect(() => {
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
