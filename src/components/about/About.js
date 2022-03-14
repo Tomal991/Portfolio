@@ -1,8 +1,5 @@
 import React from "react";
 
-import { FaAward } from "react-icons/fa";
-import { AiOutlineUser } from "react-icons/ai";
-import { FaFolder } from "react-icons/fa";
 import "./about.css";
 const About = () => {
   return (
@@ -63,6 +60,3 @@ const About = () => {
 };
 
 export default About;
-{
-  /*  */
-}
