@@ -1,10 +1,11 @@
 .about__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 15%;
 }
 .subject {
-  padding: 10px 130px 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
 }
 
 .timeline {
@@ -89,7 +90,7 @@
 /* The actual content */
 .content {
   padding: 10px;
-  background-color: black;
+  background-color: var(--color-bg-variant);
   position: relative;
   border-radius: 6px;
 }
@@ -109,6 +110,10 @@
   .subject {
     padding: 10px 30px 20px;
   }
+  .timeline {
+    position: relative;
+    width: 100%;
+  }
 
   /* Place the timelime to the left */
   .timeline::after {
@@ -119,7 +124,7 @@
   .contain {
     width: 100%;
     padding-left: 70px;
-    padding-right: 25px;
+    padding-right: 5px;
   }
 
   /* Make sure that all arrows are pointing leftwards */
