@@ -3,14 +3,13 @@
   position: fixed;
   z-index: 1;
   width: 100%;
-  background-color: rgb(18, 18, 56);
-  justify-content: space-between;
+  background-color: rgb(22, 22, 63);
+  justify-content: space-around;
   padding: 20px;
   min-height: 70px;
 }
 .intro {
   font-size: 20px;
-  padding-left: 100px;
 }
 .nav_item {
   position: relative;
@@ -40,12 +39,14 @@ nav a.active {
   }
   .intro {
     font-size: 20px;
+    position: absolute;
+    left: 0;
     padding-left: 50px;
   }
   .nav_item {
     display: flex;
     flex-direction: column;
-
+    padding: 50px;
     height: auto;
   }
   nav a {

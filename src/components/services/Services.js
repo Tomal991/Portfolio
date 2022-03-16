@@ -1,5 +1,8 @@
 import React from "react";
 import { BiCheck } from "react-icons/bi";
+import { FaCode } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+import { FiCodepen } from "react-icons/fi";
 import "./services.css";
 const Services = () => {
   return (
@@ -10,78 +13,80 @@ const Services = () => {
       <div className="container services_container">
         <article className="service">
           <div className="service_top">
-            <h3>UI Design</h3>
+            <FaCode className="service_icon" />
+            <h3>Frontend Development</h3>
           </div>
           <ul className="service_list">
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>I can make pixel perfect responsive design in</p>
             </li>
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>Html,CSS,Bootstrap</p>
             </li>
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>Angular,Angular Material</p>
             </li>
             <li>
-              <BiCheck />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>React,Material UI</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service_top">
-            <h3>web Design</h3>
+            <FaLaptopCode className="service_icon" />
+            <h3>Backend Development</h3>
           </div>
           <ul className="service_list">
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>I can build REST API,handle database,server,ORM in </p>
             </li>
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>Spring Boot(Java)</p>
             </li>
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>Hibernate</p>
             </li>
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>MySql</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service_top">
-            <h3>Web dev</h3>
+            <FiCodepen className="service_icon" />
+            <h3>Full Stack Development</h3>
           </div>
           <ul className="service_list">
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>I can make Robust Scalable Web Applications using</p>
             </li>
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>Spring Boot(Java)</p>
             </li>
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>Angular</p>
             </li>
             <li>
-              <BiCheck className="list_icon"/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="list_icon" />
+              <p>React</p>
             </li>
-          
+            <li>
+              <BiCheck className="list_icon" />
+              <p>MySql</p>
+            </li>
           </ul>
         </article>
       </div>

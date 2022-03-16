@@ -7,7 +7,9 @@
   justify-content: center;
   padding: 10px 0px;
 }
-
+.description {
+  padding: 0px 100px 40px;
+}
 .timeline {
   position: relative;
   width: 60%;
@@ -74,7 +76,7 @@
   content: " ";
   height: 0;
   position: absolute;
-  top: 12px;
+  top: 15px;
   width: 0;
   left: 30px;
   border: medium solid white;

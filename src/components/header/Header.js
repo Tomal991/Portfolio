@@ -69,9 +69,7 @@ const Header = () => {
             <BsLinkedin className="social_icon" />
           </a>
         </div>
-        <a href="#contact" className="scroll_down">
-          Scroll Down
-        </a>
+       
       </div>
     </header>
   );

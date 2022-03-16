@@ -19,8 +19,9 @@
 }
 
 .service_top {
+  display: flex;
   background: var(--color-primary);
-  padding: 2rem;
+  padding: 1.8rem;
   border-radius: 0 0 2rem 2rem;
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -30,7 +31,11 @@
   font-size: 1rem;
   text-align: center;
 }
-
+.service_icon {
+  font-size: 28px;
+  margin: 0px 15px;
+  color: black;
+}
 .service_list {
   padding: 2rem;
 }
@@ -58,8 +63,8 @@
 }
 
 @media screen and (max-width: 600px) {
-    .services_container {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-      }
+  .services_container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }

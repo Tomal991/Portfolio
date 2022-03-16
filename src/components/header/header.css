@@ -1,19 +1,14 @@
 header {
   min-height: 100vh;
   padding-top: 8rem;
-  overflow: hidden;
 }
 .header__container {
-  height: 100%;
   position: relative;
 }
 .top {
   display: grid;
-  grid-template-columns: 40% 25%;
+  grid-template-columns: 40% 20%;
   gap: 15%;
-}
-.section1 {
-  padding-left: 30px;
 }
 .about__me {
   width: 100%;
@@ -42,7 +37,7 @@ header {
   margin-top: 2.5rem;
   gap: 1.2rem;
 }
-a.btn{
+a.btn {
   margin-bottom: 50px;
 }
 .social {
@@ -51,7 +46,7 @@ a.btn{
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 1;
 }
 .social_icon {
@@ -69,34 +64,25 @@ a.btn{
   object-fit: cover;
   border-radius: 50%;
 }
-.scroll_down {
-  position: absolute;
-  right: 0rem;
-  bottom: -7rem;
-  transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 0.9rem;
-}
 
 @media screen and (max-width: 1024px) {
   .top {
     grid-template-columns: 1fr;
-    gap:0;
+    gap: 0;
+  }
+  header {
+    padding-top: 6rem;
   }
   .about__me {
-    max-width: 40%;
+    max-width: 30%;
   }
   .social {
     display: flex;
     flex-direction: row;
-   
+
     gap: 1rem;
     position: absolute;
-    
-    bottom: 0;
-  }
-  .scroll_down {
-    display: none;
+    bottom: 1;
   }
 }
 @media screen and (max-width: 600px) {
@@ -107,8 +93,7 @@ a.btn{
   .about__me {
     max-width: 50%;
   }
-  .social,
-  .scroll_down {
+  .social {
     display: none;
   }
 }
