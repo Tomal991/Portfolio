@@ -6,12 +6,13 @@ const About = () => {
     <section id="about">
       <h2 className="title">About Me</h2>
       <h4 className="description">
-        Ambitious, self motivated, passionate,team player and a quick learner.I
-        always try to be organized,code efficiently and have eagerness to
-        learn.I have good communication, problem solving and analytical skills.
-        I am seeking a position in a growth-oriented company where I can use my
-        skills for the benefit of the company while having the scope to develop
-        my own skills.
+        Ambitious, self motivated, passionate,proactive team player and a quick learner.
+        Ability to adapt quickly out of the comfort zone, love challenges and
+        have eagerness to learn.I have good communication, problem solving and
+        analytical skills. To build career in a growing organization, where I
+        can get the opportunities to prove my abilities, fulfilling the
+        organizational goal and climb the career ladder through continuous
+        learning and commitment.
       </h4>
       <div className="container about__container">
         <div>
