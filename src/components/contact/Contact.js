@@ -46,7 +46,7 @@ const Contact = () => {
             <BsSkype className="icon" />
             <h4>Skype</h4>
             <h5>live:.cid.afa88fdf382eafe9</h5>
-            <a href="skype:<live:.cid.afa88fdf382eafe9>?<action>">Send a Message</a>
+            <a href="skype:<live:.cid.afa88fdf382eafe9>?<chat>">Send a Message</a>
           </article>
           <article className="option">
             <BsWhatsapp className="icon" />
