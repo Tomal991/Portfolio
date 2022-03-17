@@ -23,7 +23,7 @@ nav a:hover {
   transition: left 250ms ease-in-out, right 250ms ease-in-out;
 }
 nav a.active {
-  color: blueviolet;
+  color: #4db5ff;
   border-bottom: 5px solid rgb(100, 124, 190);
 }
 .hamburger-menu {
