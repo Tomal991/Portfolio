@@ -5,7 +5,7 @@ import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import "./header.css";
 import mypic from "../../assets/mypic.jpg";
-import formalPic from "../../assets/formalPic.jpg"
+// import formalPic from "../../assets/formalPic.jpg"
 
 import Typed from "react-typed";
 const Header = () => {
