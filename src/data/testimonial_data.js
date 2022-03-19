@@ -3,19 +3,19 @@ export const testimonialData = [
   {
     id: 1,
     avatar: mypic,
-    name: "Exam Portal",
-    review: "lllllllllll",
+    name: "Tomal",
+    review: "Excellent Personality",
   },
   {
     id: 2,
     avatar: mypic,
-    name: "Exam ",
-    review: "kkkk",
+    name: "Tomal",
+    review: "Ambitious,Quick Larner",
   },
   {
     id: 3,
     avatar: mypic,
-    name: "Exam s",
-    review: "ssssss",
+    name: "Tomal",
+    review: "Good Team Player",
   },
 ];

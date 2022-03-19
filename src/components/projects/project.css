@@ -6,8 +6,8 @@
 
 .projects_item {
   background: var(--color-bg-variant);
-  padding: 1.2rem;
-  border-radius: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
   border: 1px solid transparent;
   transition: var(--transition);
   max-height: 400px;
@@ -19,11 +19,11 @@
 .image {
   height: 180px;
   width: 100%;
-  object-fit: cover;
+ object-fit: cover;
 }
 
 .projects_item_image {
-  border-radius: 1rem;
+  border-radius: 10px;
   overflow: hidden;
 }
 .projects_item h3 {
