@@ -39,6 +39,16 @@ export const FrontendData = [
     title: "Bootstrap",
     level: "Intermediate",
   },
+  {
+    id: 9,
+    title: "TailwindCss",
+    level: "Beginner"
+  },
+  {
+    id: 10,
+    title: "Scss",
+    level: "Rookie"
+  }
 ];
 
 export const BackendData = [
