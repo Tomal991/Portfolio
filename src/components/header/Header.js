@@ -5,6 +5,8 @@ import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import "./header.css";
 import mypic from "../../assets/mypic.jpg";
+import mypic2 from "../../assets/mypic2.jpg";
+
 // import formalPic from "../../assets/formalPic.jpg"
 
 import Typed from "react-typed";
@@ -43,7 +45,7 @@ const Header = () => {
           </div>
           <div className="about__me">
             <div className="about__me__image">
-              <img src={mypic} alt="mypic" />
+              <img src={mypic2} alt="mypic" />
             </div>
           </div>
         </div>

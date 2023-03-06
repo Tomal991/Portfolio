@@ -23,11 +23,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="list_icon" />
-              <p>Html,CSS,Bootstrap</p>
+              <p>Html,CSS,Bootstrap,Tailwind,SCSS</p>
             </li>
             <li>
               <BiCheck className="list_icon" />
-              <p>Angular,Angular Material</p>
+              <p>Angular,Typescript,Angular Material</p>
             </li>
             <li>
               <BiCheck className="list_icon" />

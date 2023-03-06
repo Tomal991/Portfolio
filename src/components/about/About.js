@@ -6,13 +6,12 @@ const About = () => {
     <section id="about">
       <h2 className="title">About Me</h2>
       <h4 className="description">
-        Ambitious, self motivated, passionate,proactive team player and a quick learner.
-        Ability to adapt quickly out of the comfort zone, love challenges and
-        have eagerness to learn.I have good communication, problem solving and
-        analytical skills. To build career in a growing organization, where I
-        can get the opportunities to prove my abilities, fulfilling the
-        organizational goal and climb the career ladder through continuous
-        learning and commitment.
+        Ambitious, self motivated, passionate,proactive team player and a quick
+        learner.I have good communication,problem solving and analytical skills.
+        To build career in an organization, where I can get the opportunities to
+        prove my abilities, fulfilling the organizational goal and climb the
+        career ladder through continuous learning and commitment.I have 1 years
+        of experience in Angular, Typescript, Tailwind and Responsive design.
       </h4>
       <div className="container about__container">
         <div>
@@ -52,13 +51,25 @@ const About = () => {
               <div class="content">
                 <h4>Internship</h4>
                 <h5>MySoft Limited</h5>
-                <h5>Java Based Microservice System Solutions</h5>
-                <h6>03 July-30 september,2021</h6>
-                <h6>Java</h6>
-                <h6>Spring Boot</h6>
-                <h6>Angular</h6>
-                <h6>MySql</h6>
-                <h6>Hibernate</h6>
+                <h6>Java Based Microservice System Solutions</h6>
+                <h6>(Java,SpringBoot,Hibernate,Angular,MySQL)</h6>
+                <small>03 July-30 september,2021</small>
+              </div>
+            </div>
+            <div class="contain right">
+              <div class="content">
+                <h4>Junior Software Engineer (Frontend)</h4>
+                <h5>Aits Idea Limited</h5>
+                <small>01 June-currently working</small>
+                <h6>
+                  - Worked in Frontend part with Angular,Tailwind and Responsive
+                  Design
+                </h6>
+                <h6>
+                  - Building web applications (mostly medium/large scale ERP)
+                </h6>
+                <h6> -Creating reusable components and templates</h6>
+                <h6>- write clean and maintainable code</h6>
               </div>
             </div>
             {/* <div class="contain right">
