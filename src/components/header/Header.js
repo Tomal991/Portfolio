@@ -4,7 +4,6 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import "./header.css";
-import mypic from "../../assets/mypic.jpg";
 import mypic2 from "../../assets/mypic2.jpg";
 
 // import formalPic from "../../assets/formalPic.jpg"
