@@ -7,10 +7,12 @@ import Elearn2 from "../assets/Elearn2.png";
 // import examportal1 from "../assets/examportal1.png"
 // import examportal2 from "../assets/examportal2.png"
 import examportal from "../assets/examportal.jpg";
-import HeartPredict from "../assets/HeartPredict.jpg";
+import BrainStroke from "../assets/BrainStrokePrediction.png";
 import voice from "../assets/voice.png";
 import foodOrder from "../assets/foodOrder.jpg";
 import hotel from "../assets/hotel.png"
+import BlogApp from "../assets/BlogAppDiagram.drawio.png"
+import shoppingCart from "../assets/ShoppingCart.png"
 export const projectData = [
   {
     id: 1,
@@ -19,16 +21,37 @@ export const projectData = [
     github: "https://github.com/rashedabir/E-Learn_System/tree/tomal",
     live: "https://elearn-bd.web.app/",
   },
-
   {
     id: 2,
+    image: shoppingCart,
+    title: "Shopping Cart in Angular like Chaldal",
+    github: "https://github.com/Tomal991/shoppingCart-Angular",
+    live: "https://github.com/Tomal991/shoppingCart-Angular",
+  },
+
+  {
+    id: 3,
     image: examportal,
     title: "Exam Portal in Spring Boot and Angular",
     github: "https://github.com/Tomal991/ExamPortal",
     live: "http://github.com",
   },
   {
-    id: 3,
+    id: 4,
+    image: BlogApp,
+    title: "Blog App in Spring Boot",
+    github: "hhttps://github.com/Tomal991/BlogApp",
+    live: "https://github.com/Tomal991/BlogApp",
+  },
+  {
+    id: 5,
+    image: BrainStroke,
+    title: "Brain-Stroke-Prediction-with-Oversampling-in-Machine-Learning",
+    github:"https://github.com/Tomal991/Brain-Stroke-Prediction-with-Oversampling-in-Machine-Learning",
+    live: "https://github.com/Tomal991/Brain-Stroke-Prediction-with-Oversampling-in-Machine-Learning",
+  },
+  {
+    id: 6,
     image: hotel,
     title: "Hotel Management System in Java",
     github: "https://github.com/Tomal991/HotelManagementSystem",
@@ -36,7 +59,7 @@ export const projectData = [
   },
 
   {
-    id: 4,
+    id: 7,
     image: pigGame,
     title: "Pig Game with Javascript",
     github: "https://github.com/Tomal991/pig-game-js",
@@ -44,7 +67,7 @@ export const projectData = [
   },
 
   {
-    id: 5,
+    id: 8,
     image: gitProfileFinder,
     title: "Github Profile Finder in JS",
     github: "https://github.com/Tomal991/Github-profile-finder",
@@ -52,7 +75,7 @@ export const projectData = [
   },
 
   {
-    id: 6,
+    id: 9,
     image: voice,
     title: "Voice Assistant System in Python",
     github: "https://github.com/Tomal991/AI-Desktop-Voice-Assistant",
@@ -60,22 +83,15 @@ export const projectData = [
   },
 
   {
-    id: 7,
+    id: 10,
     image: starbucks,
     title: "Starbucks Landing Page in Html and Css",
     github: "https://github.com/Tomal991/Starbucks-landing-page",
     live: "https://tomal991.github.io/Starbucks-landing-page/",
   },
+  
   {
-    id: 8,
-    image: HeartPredict,
-    title: "Heart Disease Prediction in Machine Learning",
-    github:
-      "https://github.com/Tomal991/Heart_Disease_Prediction-machine-learning",
-    live: "http://github.com",
-  },
-  {
-    id: 9,
+    id: 11,
     image: foodOrder,
     title: "Food Order System in Android",
     github: "https://github.com/Tomal991/Food-Order-android-App",
