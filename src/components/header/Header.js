@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Intesarul Haque's Resume.pdf";
+import CV from "../../assets/Resume.pdf";
 import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
